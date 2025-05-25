@@ -15,8 +15,8 @@ Este é um projeto simples de lista de tarefas (To-do List) desenvolvido com **R
 - Visualização da lista de tarefas
 
 ## 📁 Estrutura do Projeto
-    todolist/               
-<br>├── public/
+todolist/               
+├── public/
 <br>├── src/
 <br>│ ├── components/
 <br>│ │ ├── Todo.jsx
