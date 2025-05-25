@@ -1,12 +1,28 @@
-# React + Vite
+# 📋 Lista de Tarefas com React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto simples de lista de tarefas (To-do List) desenvolvido com **React**, que permite adicionar tarefas com título e categoria, e exibi-las em tela.
 
-Currently, two official plugins are available:
+## 🛠 Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React
+- JavaScript (ES6+)
+- CSS
 
-## Expanding the ESLint configuration
+## 🎯 Funcionalidades
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Adicionar uma nova tarefa com título e categoria
+- Categorias disponíveis: Trabalho, Pessoal, Estudos
+- Visualização da lista de tarefas
+
+## 📁 Estrutura do Projeto
+todolist/
+├── public/
+├── src/
+│ ├── components/
+│ │ ├── Todo.jsx
+│ │ └── TodoForm.jsx
+│ ├── App.jsx
+│ ├── App.css
+│ └── index.js
+├── package.json
+└── README.md
